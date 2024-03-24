@@ -2,14 +2,14 @@
 import inquirer from "inquirer";
 
 const answer = await inquirer.prompt([
-  { massage: "Please enter first number", type: "number", name: "firstNumber" },
+  { message: "Please enter first number", type: "number", name: "firstNumber" },
   {
-    massage: "Please enter second number",
+    message: "Please enter second number",
     type: "number",
     name: "secondNumber",
   },
   {
-    massage: "Please sellect one of the operator to perform action",
+    message: "Please sellect one of the operator to perform action",
     type: "list",
     name: "operator",
     choices: ["Addition", "Substraction", "Multiplication", "Division"],
